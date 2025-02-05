@@ -33,6 +33,16 @@ body {
 
 }
 
+article {
+    display: flex;
+
+}
+
+div {
+    flex: 1;
+
+}
+
 form input,
 form label,
 form button {
@@ -41,17 +51,20 @@ form button {
     margin-bottom: 10px;
 
 }
+
 form input {
     font-size: 24px;
     height: 50px;
     padding: 0 20px;
 
 }
+
 form input:focus {
     border: none;
-   outline: 2px solid var(--terciary-color);
+    outline: 2px solid var(--terciary-color);
 
 }
+
 form button {
     border: none;
     background: var(--terciary-color);
@@ -61,10 +74,10 @@ form button {
     height: 50px;
     cursor: pointer;
     margin-top: 30px;
-    
+
 }
+
 form button:hover {
     outline: var(--secondary-color);
 
 }
-
