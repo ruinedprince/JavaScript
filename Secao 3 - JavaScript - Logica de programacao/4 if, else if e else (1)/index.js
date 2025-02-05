@@ -48,6 +48,7 @@ else { // Se nenhuma das condições acima for atendida.
     // If pode ser utilizado sozinho apenas com sua condição, sem else ou else.
     // Sempre que utilizo a palavra else, preciso de um if antes.
     // Posso ter vários else ifs na condição, mas apenas um else na checagem.
+    // Não é possível usar else ou else if sem um if antes.
 
 let tenhoGrana = true;
 
